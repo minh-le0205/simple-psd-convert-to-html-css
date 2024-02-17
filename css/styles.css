@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("/images/default-background.jpg") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login-box {
+  background-color: yellow;
+  margin: 149px auto;
+  width: 400px;
+  height: 400px;
+  z-index: 1000;
+}
+
+.box-header {
+  position: relative;
+  max-width: 400px;
+  height: 22%;
+  background-color: #6e4b71;
+  z-index: 1;
+  display: block;
+}
+
+.box-content {
+  max-width: 400px;
+  height: 78%;
+  background-color: #f2f2f2;
+}
+
+.header-text {
+  position: absolute;
+  z-index: 100;
+  color: #d7ced8;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -9px;
+  padding-left: 21px;
+}
+
+.close-icon {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -9px;
+  padding-left: 365px;
+}
+
+.form-group {
+  padding: 24px;
+}
+
+input[type="text"] {
+  width: 354px;
+  height: 52px;
+}
+
+input[type="text"]::placeholder {
+  padding-left: 17px;
+}
+
+.inp-icon {
+  float: right;
+  margin-right: 6px;
+  margin-top: -35px;
+  position: relative;
+  z-index: 2;
+  color: #bcbcbc;
+}
+
+#pwd-text {
+  float: right;
+  color: #999999;
+  margin-top: 8px;
+  margin-right: 58px;
+}
